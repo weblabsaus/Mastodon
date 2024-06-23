@@ -830,6 +830,7 @@ en:
       title: Account posts - @%{name}
       trending: Trending
       visibility: Visibility
+      view_publicly: View publicly
       with_media: With media
     strikes:
       actions:
@@ -1721,7 +1722,6 @@ en:
     show_more: Show more
     show_thread: Show thread
     title: '%{name}: "%{quote}"'
-    view_publicly: View publicly
     visibilities:
       direct: Direct
       private: Followers-only
