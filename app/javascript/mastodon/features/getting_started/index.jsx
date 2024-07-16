@@ -12,6 +12,7 @@ import { connect } from 'react-redux';
 import AlternateEmailIcon from '@/material-icons/400-24px/alternate_email.svg?react';
 import BookmarksIcon from '@/material-icons/400-24px/bookmarks-fill.svg?react';
 import ExploreIcon from '@/material-icons/400-24px/explore.svg?react';
+import ModerationIcon from '@/material-icons/400-24px/flag.svg?react';
 import PeopleIcon from '@/material-icons/400-24px/group.svg?react';
 import HomeIcon from '@/material-icons/400-24px/home-fill.svg?react';
 import ListAltIcon from '@/material-icons/400-24px/list_alt.svg?react';
@@ -19,6 +20,7 @@ import MenuIcon from '@/material-icons/400-24px/menu.svg?react';
 import PersonAddIcon from '@/material-icons/400-24px/person_add.svg?react';
 import PublicIcon from '@/material-icons/400-24px/public.svg?react';
 import SettingsIcon from '@/material-icons/400-24px/settings-fill.svg?react';
+import AdministrationIcon from '@/material-icons/400-24px/speed.svg?react';
 import StarIcon from '@/material-icons/400-24px/star.svg?react';
 import { fetchFollowRequests } from 'mastodon/actions/accounts';
 import Column from 'mastodon/components/column';
@@ -141,10 +143,10 @@ class GettingStarted extends ImmutablePureComponent {
       );
 
       if (canViewAdminDashboard(permissions)) {
-        navItems.push(<ColumnLink key='administration' href='/admin/dashboard' icon='tachometer' text={intl.formatMessage(messages.administration)} />);
+        navItems.push(<ColumnLink key='administration' href='/admin/dashboard' icon='tachometer' iconComponent={AdministrationIcon} text={intl.formatMessage(messages.administration)} />);
       }
       if (canManageReports(permissions)) {
-        navItems.push(<ColumnLink key='moderation' href='/admin/reports' icon='flag' text={intl.formatMessage(messages.moderation)} />);
+        navItems.push(<ColumnLink key='moderation' href='/admin/reports' icon='flag' iconComponent={ModerationIcon} text={intl.formatMessage(messages.moderation)} />);
       }
     }
 
