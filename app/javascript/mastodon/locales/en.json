@@ -193,6 +193,8 @@
   "confirmations.unfollow.confirm": "Unfollow",
   "confirmations.unfollow.message": "Are you sure you want to unfollow {name}?",
   "confirmations.unfollow.title": "Unfollow user?",
+  "content_warning.hide": "Hide post",
+  "content_warning.show": "Show anyway",
   "conversation.delete": "Delete conversation",
   "conversation.mark_as_read": "Mark as read",
   "conversation.open": "View conversation",
