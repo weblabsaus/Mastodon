@@ -1154,7 +1154,6 @@ ar:
   crypto:
     errors:
       invalid_key: ليس بمفتاح Ed25519 أو Curve25519 صالح
-      invalid_signature: ليس بتوقيع Ed25519 صالح
   date:
     formats:
       default: "%d %b %Y"
