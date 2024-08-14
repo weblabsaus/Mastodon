@@ -6,7 +6,7 @@ export function start() {
 
   try {
     Rails.start();
-  } catch (e) {
+  } catch {
     // If called twice
   }
 }
