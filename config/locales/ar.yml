@@ -29,7 +29,6 @@ ar:
       other: منشور
       two: منشورَيْن
       zero: لا منشورات
-    posts_tab_heading: المنشورات
   admin:
     account_actions:
       action: تنفيذ الإجراء
@@ -1693,7 +1692,6 @@ ar:
     export: تصدير البيانات
     featured_tags: الوسوم الشائعة
     import: استيراد
-    import_and_export: استيراد وتصدير
     migrate: تهجير الحساب
     preferences: التفضيلات
     profile: الملف التعريفي

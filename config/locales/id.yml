@@ -19,7 +19,6 @@ id:
       following: Anda harus mengikuti orang yang ingin anda endorse
     posts:
       other: Kiriman
-    posts_tab_heading: Kiriman
   admin:
     account_actions:
       action: Lakukan aksi
@@ -1354,7 +1353,6 @@ id:
     export: Expor data
     featured_tags: Tagar unggulan
     import: Impor
-    import_and_export: Impor dan ekspor
     migrate: Pemindahan akun
     preferences: Pilihan
     profile: Profil
